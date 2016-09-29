@@ -8,7 +8,7 @@ the course Information Technloogy (1DT051) 2016.
 ## assignment.py
 
 A Python program using the `graphics` module for generating and manipulating
-graphics. You must modify this program according to the instructions for the
+graphics. You must modify this program according to the [instructions](http://www.it.uu.se/education/course/homepage/introit/ht16/programming/part-3/assignment/) for the
 mandatory assignment programming part 3.
 
 ## colors.py
