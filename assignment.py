@@ -183,15 +183,12 @@ def randomBackground(w, n):
     window w.
     '''
 
-    # TODO: You must add code here.
-
-    # TIP: Use randomGrayCircle() inside a for-in loop.
     p1 = Point(0, 0)
     p2 = Point(w.getWidth(), w.getHeight())
 
-    for _ in range(n):
-	    c = randomGrayCircle(p1, p2)
-	    c.draw(w)
+    # TODO: You must add code here.
+
+    # TIP: Use randomGrayCircle(p1, p2) inside a for-in loop.
 
 def inCircle(p, c):
     '''
