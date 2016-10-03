@@ -209,8 +209,7 @@ def inCircle(p, c):
 
 
 def handleClick(p, c, r):
-    '''
-    Arguments:
+    '''Arguments:
 
     p :: Point
     c :: Circle
@@ -218,9 +217,9 @@ def handleClick(p, c, r):
 
     Side effects:
 
-    If p is inside c, change the color of c randonly. If p is inside r
-    but outsicde c, change the color of r randomly.
-
+    If p is inside c, change the color of c randonly. If p is inside r but
+    outsicde c, change the color of r randomly. I p is outside of r, move the
+    center points of both c and r to p.
     '''
 
     print "Click on:"
@@ -229,10 +228,12 @@ def handleClick(p, c, r):
 
     # TODO: You must add code here.
 
-    # TIP: Use inCircle() and inRectangle().
+    # TIP: Use inCircle() and inRectangle() to detect whether p is inside c or
+    # inside r but not inside r.
 
-    # TIP: Use randomColorFill() and move().
+    # TIP: use randomColorFill() to change color. 
 
+    # TIP: Use move(p, [c, r]) to move both c and r if p is outside r.
 
     return None
 
